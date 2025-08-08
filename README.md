@@ -1,1 +1,37 @@
 # social-media-app
+📁 cmd
+   └── app
+       └── app.go
+   └── main.go
+
+📁 internal
+   └── config
+   └── server
+       └── go
+           ├── handler.go
+           └── lmiddleware.go
+   └── db
+       └── wd.go
+   └── cache
+       └── cache.go
+   └── constant
+       └── constant.go
+   └── config
+       └── config.go
+   └── controllers
+       ├── user.go
+       └── post.go
+   └── models
+       ├── user.go
+       └── post.go
+   └── routes
+       └── routes.go
+   └── services
+       ├── user_service.go
+       └── post_service.go
+📁 utils
+   └── utils.go
+
+📄 go.mod  
+📄 go.sum  
+📄 Makefile
